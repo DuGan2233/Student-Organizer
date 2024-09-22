@@ -1,0 +1,132 @@
+.details-card-body-styling {
+  font-family: "Work Sans", sans-serif;
+  padding-bottom: 1px;
+  text-align: center;
+}
+
+.button-styling {
+  position: sticky;
+  border-radius: 10px;
+  margin: 1.5rem;
+  margin-top: 2px;
+  top: 2rem;
+  width: 7rem;
+  height: 3rem;
+  /*background: rgb(44, 122, 123, 0.6);
+  border: rgb(44, 122, 123, 1);*/
+  background: black;
+  font-weight: bolder;
+  color: white;
+}
+
+/*.button-styling:hover {
+  
+  background: rgba(255, 255, 0, 0.89);
+  color: black;
+  opacity: 0.9;
+}*/
+
+.details-card-title-styling {
+  padding-top: 4rem;
+  padding-bottom: 0.2rem;
+  margin-top: -4rem;
+  text-align: center;
+  font-family: "Work Sans", sans-serif;
+  font-weight: bolder;
+}
+
+.details-card-styling {
+  display: inline-flex;
+  flex-direction: row;
+  border-radius: 2rem;
+  width: 17%;
+  height: 15rem;
+  align-items: center;
+  justify-content: space-evenly;
+  margin: auto;
+  margin-top: 5.2rem;
+  margin-left: 1rem;
+  margin-right: 1rem;
+  margin-bottom: 4rem;
+  background: white;
+  box-shadow: 0 0rem 0rem rgba(0, 0, 0, 0.562);
+  border: 2px solid black;
+  border-radius: 10px;
+}
+.details-card-styling:hover {
+  overflow: hidden;
+  transform: scale(1.05);
+  cursor: default;
+}
+
+.edit-button-styling {
+  position: absolute;
+  left: 80%;
+  top: 82%;
+  background: white;
+  border: white;
+}
+.edit-button-styling:hover {
+  background: white;
+}
+
+.delete-button-styling {
+  border-radius: 100rem;
+  position: absolute;
+  right: 82%;
+  top: 79%;
+  background: white;
+  border: white;
+}
+.delete-button-styling:hover {
+  background: white;
+}
+
+.card-text {
+  font-weight: bold;
+}
+
+.add-day-button {
+  position: absolute;
+  left: 44.5%;
+  top: 28.5%;
+  width: 100px;
+  margin-left: 20px;
+  margin-bottom: 25px;
+  background: #5ac2bd;
+  color: black;
+  border-radius: 10px;
+  font-size: 20px;
+  padding: 0.5rem;
+  opacity: 1;
+  font-family: "Work Sans", sans-serif;
+  font-weight: 800;
+}
+
+.add-day-button:hover {
+  box-shadow: 5px 5px 5px grey;
+}
+
+.heading-card-styling {
+  width: 450px;
+  height: auto;
+  top: 20%;
+  left: 31%;
+  margin-right: 900px;
+  margin-left: 25px;
+  background: white;
+  text-align: center;
+  border-radius: 10px;
+  box-shadow: white;
+}
+
+.title-styling {
+  padding-top: 6rem;
+  padding-bottom: 4.5rem;
+  margin-top: -4rem;
+  text-align: center;
+  font-family: "Work Sans", sans-serif;
+  font-weight: bolder;
+  font-size: 50px;
+  text-transform: uppercase;
+}
